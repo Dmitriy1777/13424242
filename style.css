@@ -1,42 +1,52 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+  zoom: 80%; /* масштаб страниці на 80% */
+  overflow: auto;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0; /* видалено зовнішній відступ */
+  padding: 0; /* видалено внутрішній відступ */
+  font-family: "Roboto", sans-serif;
 }
-ol, ul {
-	list-style: none;
+
+header, nav, main {
+  margin: 0; /* видалено зовнішній відступ */
+  padding: 0; /* видалено внутрішній відступ */
 }
-blockquote, q {
-	quotes: none;
+
+nav a {
+  color: #7dc222;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+.img_container {
+  text-align: center;
+  padding: 10px;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.column {
+  max-width: 100%;
+  padding: 12px;
+  text-align: center;
+  font-family: "Roboto-bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.column a {
+  font-size: 20px;
+  background-color: #7dc222;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  border-color: #7dc222;
+}
+
+footer {
+  height: 80px;
+  width: 99%; /* змінили width: 99%; */
+  text-align: right;
 }
